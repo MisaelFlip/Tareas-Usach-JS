@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ee0707;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 20px 0;
+    color: #f7f2f0;
+  }
+  
+  .contenedor-pokemones {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 20px;
+  }
+  
+  .tarjeta {
+    background-color: #fffefe;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .tarjeta:hover {
+    transform: scale(1.05);
+  }
+  
+  .tarjeta img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .tarjeta h3 {
+    text-transform: capitalize;
+    color: #444;
+  }
+  
